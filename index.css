@@ -1,0 +1,61 @@
+#game {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    border: 0.5px solid black
+}
+
+button {
+    margin: 30px 5px;
+    padding: 5px 15px;
+}
+
+.cell {
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+.beige {
+    background-color: beige;
+}
+.green {
+    background-color: green;
+}
+
+p {
+    color: aqua;
+    font-size: 20px;
+}
+
+.piece {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    transition: 400ms ease-in;
+}
+
+.Hwhite {
+    background-image: url("img/knightw.png");
+}
+
+.Hblack {
+    background-image: url("img/knightb.png");
+}
+
+.Qwhite {
+    background-image: url("img/queenw.png");
+}
+
+.Qblack {
+    background-image: url("img/queenb.png");
+}
+
+.Bwhite {
+    background-image: url("img/bishopw.png");
+}
+.Bblack {
+    background-image: url("img/bishopb.png");
+}
